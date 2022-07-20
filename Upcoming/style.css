@@ -187,13 +187,22 @@ footer {
 
 .terms-conditions {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     justify-content: center;
     align-items: center;
     margin-top: -70px;
     margin-left: 100px;
 }
-
+.fa-brands{
+    font-size: 2em;
+}
+.fa-facebook{
+    background: #17A9FD;
+    border-radius: 25px;
+}
+.fa-twitter{
+    color: #1DA1F2;
+}
 .terms-conditions a {
     text-decoration: none;
     color: #ffff;
