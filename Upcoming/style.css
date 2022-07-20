@@ -37,8 +37,17 @@ body {
 
 .banner-info {
     padding: 20px;
+    animation: moveright 1s linear 1;
+    animation-delay: 1s;
 }
-
+@keyframes moveright{
+    0%{
+        transform: translatex(-800px);
+    }
+    100%{
+        transform: translatex(0);
+    }
+}
 .banner-info p {
     text-decoration: none;
     margin-top: 25px;
@@ -52,7 +61,19 @@ body {
     background: #ff1f5a;
     color: #ffcef3;
 }
+.banner-img{
+    animation: zoomin 1s linear 1;
+    animation-delay: 1s;
+}
 
+@keyframes zoomin{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
 .blog-items {
     display: flex;
     flex-direction: row;
