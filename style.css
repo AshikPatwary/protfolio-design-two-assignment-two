@@ -52,14 +52,12 @@ body{
     border: 2px solid sienna;
 }
 
-/* .bloger-items{
+.bloger-items{ 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 2px;
-    column-gap: 5px;
     margin-top: -20px;
     border: 2px solid red;
-} */
+}
 .page-buttons{
     width: 300px;
     height: 300px;
@@ -111,7 +109,7 @@ body{
     overflow: hidden;
 }
 .blog-info{
-    margin-top: -95px;
+    margin-top: 5px;
     padding: 15px;
     font-weight: 500;
     font-size: 16px;
@@ -140,7 +138,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: -105px;
+    margin-top: 5px;
     gap: 25px;
     padding-left: 15px;
 }
@@ -153,8 +151,4 @@ footer{
 .page-end-section{
 justify-content: center;
 align-items: center;
-}
-div{
-    border: 1px solid rgba(255, 255, 255, 1);
-    margin-bottom: 100px;
 }
