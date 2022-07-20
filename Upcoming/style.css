@@ -31,7 +31,7 @@ body {
     width: 60%;
     height: 388px;
     background: #071a52;
-    color: #ffcef3;
+    color: #fdfdfd;
     border-radius: 15px;
 }
 
@@ -133,6 +133,7 @@ body {
 
 .see-next-match-info {
     padding: 10px;
+    border-radius: 10px;
     border: 1px solid #e8e8e8e8;
 }
 
