@@ -28,8 +28,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
     padding: 20px;
-    width: 60%;
-    height: 388px;
+    width: 30%;
     background: #071a52;
     color: #fdfdfd;
     border-radius: 15px;
@@ -90,6 +89,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     margin-top: -20px;
 }
+
 
 /*-------------------- page button section start -------------------*/
 
@@ -276,6 +276,13 @@ footer {
         display: flex;
         justify-content: center;
     }
+    .page-buttons{
+        background: none;
+    }
+    .page-buttons a{
+        background: #ffff;
+        border: 1px solid #e8e8e8;
+    }
     .blog-items{
         display: flex;
         flex-direction: row;
@@ -327,25 +334,25 @@ footer {
          height: 420px;
     }
     .banner{
-        width: 95%;
+        width: 85%;
         height: 360px;
     }
-    .blog-items{
+    /* .blog-items{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 30px;
-    }
-    .bloger-items{
+    } */
+    /* .bloger-items{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-    }
-    .page-buttons{
+    } */
+    /* .page-buttons{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         background: none;
-    }
+    } */
     .page-end-section{
         justify-content: center;
         align-items: center;
